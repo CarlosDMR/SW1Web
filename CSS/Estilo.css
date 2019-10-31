@@ -1,0 +1,52 @@
+
+
+body{
+	background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+input[type=text] {
+    width: 20%;
+    box-sizing: border-box;
+    border: 0.5px solid blue;
+    font-size: 11px;
+    background-color: white;
+	float:center;
+}
+
+
+table{
+    border: 2px solid darkred;
+    border-radius: 5px;
+    border-collapse:collapse;
+    width: 100%;
+    font-family: Helvetica;
+    color:white;
+    font-size: 14px;
+}
+
+th, td{
+    text-align: left;
+    padding: 10px;
+}
+
+tr:nth-child(even){background-color:Tomato;}
+
+tr{background-color: Red; overflow: auto;}
+
+th{
+    background-color:Red;
+}
+
+
+
+
